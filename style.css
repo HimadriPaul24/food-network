@@ -35,7 +35,7 @@ nav{
 
 /* navbar ends  */
 
-/* main section starts  */
+/* home section starts  */
 
 h1{
     font-size: 50px;
@@ -60,8 +60,10 @@ p{
     margin-top:60px ;
     font-family: 'Poppins', sans-serif;
     line-height: 20px;
+    padding: 40px;
 
 }
+
 
 .half-width{
     width: 50%;
@@ -73,24 +75,42 @@ p{
 .link-button{
     text-decoration: none;
     text-transform: uppercase;
-    background-image: linear-gradient(violet,blueviolet);
+    background-image: linear-gradient(hotpink,blueviolet);
     color: white;
     font-weight: 700;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 10px 20px;
     border-radius: 5px;
+   
 
 }
-/* main section ends  */
+/*home section ends  */
 
-/* second section starts  */
+/* about me section starts  */
 
-.bg{
-    background-position: cover;
+#banner-section{
+    background-image: url("images/Frame1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+#me{
+    font-family: 'Parisienne', cursive;
+    font-size: 25px;
+
 }
 
 
-/* second secton ends  */
+/* about me secton ends  */
+ 
+/* Recipe section starts  */
+
+
+
+
+/* Recipe section end  */
 
 
 
