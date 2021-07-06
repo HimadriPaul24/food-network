@@ -9,10 +9,10 @@ body{
 /* navbar starts  */
 .navbar{
     width: 100%;
-    background:blueviolet;
+    background-image: linear-gradient(blueviolet,hotpink);
     height: 50px;
     padding: 30px;
-    border-bottom: 7px solid rgb(228, 10, 192) ;
+    /* border-bottom: 10px solid rgb(228, 10, 192) ; */
 
 }
 
@@ -25,7 +25,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
 }
@@ -54,6 +54,7 @@ p{
     color: rgb(190, 20, 139);
     font-size: 20px;
     margin-bottom: 20px;
+    
 }
 .flexible-container{
     display: flex;
@@ -75,8 +76,8 @@ p{
 .link-button{
     text-decoration: none;
     text-transform: uppercase;
-    background-image: linear-gradient(hotpink,blueviolet);
-    color: white;
+    background-image: linear-gradient(orange,yellow);
+    color: black;
     font-weight: 700;
     margin-top: 40px;
     padding: 10px 20px;
@@ -107,7 +108,47 @@ p{
  
 /* Recipe section starts  */
 
+.divided-container{
+    display: flex;
+    
+}
+#upper{
+    text-align: center;
+    line-height: 10px;
+    font-weight: 200;
+}
 
+.food{
+    width: 20%;
+    height: auto;
+    box-shadow: 10px 10px 40px rgb(4, 4, 73);
+    text-align: center;
+    border-radius: 20px ;
+    line-height: 5px;
+    margin-left: 50px;
+    margin-right: 70px;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    padding-bottom: 20px;
+}
+.food img{
+     height:240px;
+     width:200px;
+     border-radius: 10px;
+     padding-bottom: 5px;
+    
+
+}
+.item-name{
+    font-size: 20px;
+    color: brown;
+    font-weight: 700px;
+     
+}
+#item{
+    font-size: 15px;    
+}
 
 
 /* Recipe section end  */
