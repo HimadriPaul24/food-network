@@ -76,12 +76,13 @@ p{
 .link-button{
     text-decoration: none;
     text-transform: uppercase;
-    background-image: linear-gradient(orange,yellow);
-    color: black;
+    background-image: linear-gradient(orange,red);
+    color: white;
     font-weight: 700;
     margin-top: 40px;
     padding: 10px 20px;
     border-radius: 5px;
+    
    
 
 }
@@ -154,6 +155,31 @@ p{
 /* Recipe section end  */
 
 
+
+/* footer starts  */
+
+footer{
+    background-color: coral;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+
+.foot{
+    color: darkred;
+    font-size: 20px;
+}
+#footdown{
+    color: darkslateblue;
+}
+h4{
+    color:blue;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ 
+/* footer ends  */
 
 
 
