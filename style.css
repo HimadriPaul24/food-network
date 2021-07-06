@@ -1,8 +1,6 @@
 body{
     margin: 0;
-    padding: 0;
-    
-   
+    padding: 0;  
 }
 
 
@@ -111,7 +109,12 @@ p{
 
 .divided-container{
     display: flex;
-    
+    margin-top: 30px;
+      
+}
+
+.recipe-area{
+    margin-top: 90px;
 }
 #upper{
     text-align: center;
@@ -155,6 +158,34 @@ p{
 /* Recipe section end  */
 
 
+/* social status starts */
+
+.social-container{
+    display: flex;
+    margin-top: 130px;
+}
+.social-connect{
+    width: 80%;
+    height: auto;
+    box-shadow: 10px 10px 40px rgb(199, 8, 157);   
+    border-radius: 20px ;
+    background-color: crimson;
+    margin-left: 80px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+
+
+}
+.connect{
+   padding-right:200px ;
+   text-align: center;
+   padding-bottom: 30px;
+   color:indigo;
+   font-size: 25px;
+
+}
+/* social status ends  */
 
 /* footer starts  */
 
@@ -162,7 +193,7 @@ footer{
     background-color: coral;
     text-align: center;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 100px;
     
 }
 
